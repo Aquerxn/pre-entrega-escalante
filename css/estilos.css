@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'monserrat', sans-serif;
+}
+
+/*----------HEADER DE TODO EL SITIO----------*/
+
+header{
+    background-color:#e3cbac;
+    height: 110px;
+    width: 100%;
+}
+
+
+
+.logo{
+    position: absolute;
+}
+
+
+.logo img{
+    width: 120px;
+    height: 110px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 110px;
+}
+
+nav ul li a{
+    color: #2c2317;
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+li a:hover{
+    color:rgb(255, 255, 255)
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color: #2d1d06;
+    float: right;
+    line-height: 110px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/*---------- FIN HEADER DE TODO EL SITIO----------*/
+
+/*----------FOOTER DE TODO EL SITIO----------*/
+
+footer{
+    background-color: #e3cbac;
+    height: 80px;
+
+}
+
+.footer-contenedor{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    height: 80px;
+    
+}
+
+.texto-footer ul li{
+    list-style: none;
+}
+
+/*----------FOOTER DE TODO EL SITIO----------*/
+
+/*----------INDEX----------*/
+
+body{
+    font-size: 20px;
+    
+}
+
+.header-index{
+    grid-area: header-index;
+}
+
+.main-index{
+    grid-area: main-index;
+    
+}
+
+
+.footer-index{
+    grid-area: footer-index;
+}
+
+.body-index{
+    display: grid;
+    grid-template-areas: 
+    "header-index"
+    "main-index"
+    "footer-index";
+}
+
+
+/*Section IMAGEN index*/
+
+.imagen{
+    background-image: url(../img/section1-index.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    
+}
+
+.shadow{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.container-flex{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.texto-index{
+    width: 50%;
+    margin-bottom: 15vh;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.texto-index h1{
+    font-size: 60px;
+}
+
+/*Section CARDS index*/
+
+
+.card-index{
+    margin: 100px auto;
+    width: 70%;
+    
+}
+
+/*----------FIN DE INDEX----------*/
+
+/*----------NOVEDADES----------*/
+
+/*TÍTULO NOVEDADES*/
+
+.titulo-novedades{
+    background-image: url(../img/granos-cafe.png);
+    height: 190px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CARDS NOVEDADES*/
+
+.card-novedades{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 90px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+
+.card-novedades:hover{
+    transform: scale(1.15);
+}
+
+/*FOOTER NOVEDADES*/
+
+.footer-novedades{
+    margin-top: 90px;
+}
+
+/*----------FIN NOVEDADES----------*/
+
+/*----------INICIO NUESTRO CAFÉ----------*/
+
+/*TITULO NUESTRO CAFÉ*/
+
+.titulo-nuestro-cafe{
+    background-image: url(../img/granos-cafe.png);
+    height: 190px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*INFORMACION NUESTRO CAFE*/
+
+.informacion-nuestro-cafe{
+    width: 100%;
+}
+
+.informacion-nuestro-cafe p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*CARROUSEL NUESTRO CAFÉ*/
+
+.col-12-carrousel{
+    width: 90%;
+    margin: 50px auto;
+    
+}
+
+/*----------MENU----------*/
+
+/*TITULOS MENU*/
+
+.main-menu{
+    width: 100%;
+}
+
+.titulo-1-menu h1{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-1-menu h6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2-menu h2{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CARDS MENU*/
+
+.contenedor-card-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-menu{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 90px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+
+.card-menu:hover{
+    transform: scale(1.15);
+}
+
+/*FOOTER MENU*/
+
+.footer-menu{
+    margin-top: 90px;
+}
+
+
+/*----------CONTACTO----------*/
+
+/*FORMULARIO*/
+
+.contacto-container{
+    background-image: url(../img/granos-cafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.form{
+    background: rgba(255, 255, 255, .4);
+    width: 90%;
+    max-width: 700px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em; 
+    margin: auto;
+    
+}
+
+.form-container{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form .form-tittle{
+    text-align: center;
+    font-size: 1.9rem ;
+    margin-bottom: .4rem;
+    color:#115742
+}
+
+.form-input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8rem 1em;
+    outline: none;
+    border: none;
+    border-radius: 1em;
+    border: 1px solid #DFAB72;
+}
+
+.form-input-message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form-cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #e3cbac;
+    color: #115742;
+    border: none;
+    font-weight: 600;
+    padding: .7em 0;
+    border-radius: 1em;
+    cursor: pointer;
+
+}
+
+
+/*Tablets*/
+
+@media (max-width:952px){
+
+    nav a{
+        font-size: 20px;
+        padding-right:30px;
+    }
+}
+
+/*Teléfono*/
+
+@media (max-width:858px){
+
+    /*INDEX*/
+
+    .checkbtn{
+        display: block;
+    }
+
+    nav ul{
+        
+        width: 100%;
+        height: 50vh;
+        background-color: #e3cbac;
+        position: absolute;
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 30px;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    /*Section Index*/
+
+    
+
+    }
+
+
+
