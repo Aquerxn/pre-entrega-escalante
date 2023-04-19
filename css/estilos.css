@@ -8,6 +8,7 @@
 
 body{
     font-family: 'monserrat', sans-serif;
+    
 }
 
 /*----------HEADER DE TODO EL SITIO----------*/
@@ -173,8 +174,14 @@ body{
 
 /*TÍTULO NOVEDADES*/
 
+.main-novedades .col-12{
+    padding: 0px;
+}
+
 .titulo-novedades{
     background-image: url(../img/granos-cafe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 190px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -185,7 +192,7 @@ body{
 /*CARDS NOVEDADES*/
 
 .card-novedades{
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 90px;
     border-radius: 6px;
