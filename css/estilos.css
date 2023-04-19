@@ -218,6 +218,10 @@ body{
 
 /*TITULO NUESTRO CAFÉ*/
 
+.main-nuestro-cafe .col-12{
+    padding: 0px;
+}
+
 .titulo-nuestro-cafe{
     background-image: url(../img/granos-cafe.png);
     height: 190px;
