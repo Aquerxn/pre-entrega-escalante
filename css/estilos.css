@@ -316,6 +316,10 @@ body{
 
 /*FORMULARIO*/
 
+.main-contacto .col-12{
+    padding: 0px;
+}
+
 .contacto-container{
     background-image: url(../img/granos-cafe.jpg);
     background-size: cover;
